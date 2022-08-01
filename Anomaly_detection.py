@@ -345,7 +345,7 @@ def alert(metric, group, data, function = check_anomaly):
         
         
 def run_alerts(chat = None):
-    chat_id = chat or 456265830
+    chat_id = chat
     bot = telegram.Bot(token=my_token)
     
     
